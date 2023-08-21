@@ -4,5 +4,6 @@ terraform {
     key = "terra"
     region = "us-east-1"
     dynamodb_table = "my-dynamodb-table"
+    profile = "my-profile"
   }
 }
