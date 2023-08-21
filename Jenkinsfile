@@ -10,7 +10,7 @@ pipeline {
     
         stage ("terraform init") {
             steps {
-                sh ("terraform init -reconfigure") 
+                sh ("terraform init -backend-config="access_key=AKIASX5K4FA7476553UQ" -backend-config="secret_key=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") 
             }
         }
         
