@@ -10,7 +10,7 @@ pipeline {
     
         stage ("terraform init") {
             steps {
-                sh ("terraform init -backend-config="profile=your-188800051263"") 
+                sh ("terraform init") 
             }
         }
         
